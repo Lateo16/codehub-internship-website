@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  /* float: left; */
+  min-width: 650px;
+  background-color: #FFF;
+}
+
+.container-header {
+  width: 100%;
+  /* margin: 0 auto; */
+  /* margin-bottom: 140px; */
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 0px 20px;
+  display: block;
+  text-align: center;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 5%;
+  
+}
+
+.header ul li {
+  float: left;
+  padding: 15px 15px;
+  /* width: 20%; */
+}
+
+
+
+.home, .challenges {
+  padding-top: 20px;
+  float: right;
+  
+}
+
+.home:hover {
+  color: green;
+}
+
+.challenges {
+  color: green;
+}
+
+.main-body {
+  padding-top: 180px;
+  margin: 0  7.5% 14.5% 7.5%;
+  /* display: flex; */
+}
+
+.main-body-content {
+  display: flex;
+}
+
+.content {
+  padding-right: 20px;
+}
+
+.content-p {
+  font-weight: lighter;
+  color: dimgrey;
+  margin-top: 30px;
+}
+
+.select-track {
+  text-align: center;
+  height: 70%;
+  background-color: #f2f2f2;
+  /* margin-bottom: 30px; */
+}
+
+.department-title {
+  margin-bottom: 10% 0;
+}
+
+.graphic-design, .web-design, .ui-ux, .mobile-development, .web-app {
+  width: 90%;
+  background-color: #f8f8f8;
+  /* padding: 0 20px; */
+  border-radius: 5px;
+}
+
+.graphic-design:hover, .web-design:hover, .ui-ux:hover, .mobile-development:hover, .web-app:hover {
+  background-color: #26ac80;
+  color: #FFF;
+}
+
+.expo {
+  padding: 10px 20px;
+  font-weight: lighter;
+}
+
+.department-title {
+  padding: 70px 0 40px 0;
+}
+
+.suggested-fields {
+  padding: 0px 80px 80px 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: #f8f8f8;
+  padding: 2%;
+}
+
+.container-footer {
+  width: 80%;
+}
+
+.src-img2 {
+  float: left;
+  margin-left: 5%;
+}
+
+.contact-us {
+  float: right;
+  /* display: inline; */
+}
+
+.contact {
+  display: flex;
+}
+ .codehub-love {
+  float: left;
+  /* padding-right: 15px; */
+} 
+
+ .social-media {
+  padding-top: 20px;
+  padding-left: 30px;
+  margin-right: -50px;
+} 
+
+.social-media-img {
+  padding-left: 10px;
+}
